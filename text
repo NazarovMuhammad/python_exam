@@ -1,0 +1,96 @@
+### 1 Question
+#      What is a closure in Python, and can you provide a practical example / 
+#      Что такое замыкание в Python и можете ли вы привести практический пример?
+    
+### 1 ANSWER
+#      чанд функсияро дарун бадурн истифода карданро замикани меноманд  мисол:
+# def example (n = 1):
+#     def e1 (a = 1):
+#       print(a + n)
+#       return e1
+# c = example()
+# c()
+
+
+
+
+### 2 Question
+#     What is recursion in programming? / 
+#     Что такое рекурсия в программировании?
+### 2 Answer
+#     дар даруни функсия худи функсияро истифода бурданро замикани менщманд     
+
+
+
+
+### 3 Question
+    # Write a program to raise a natural number to a power of a given number recursively /
+    # Напишите программу, рекурсивно возводящую натуральное число в степень заданного числа
+    # Input: power(2, 3)
+    # Output: 8
+  
+# def power (n,b, i = 0,sum = 0):
+#     if i == n:
+#         return sum
+#     n*=b
+#     return power(n,b,i+1,sum)
+# a = power( )
+# a = int(input())
+# c = int(input())
+# print(a)
+
+
+
+
+# ### 4 Question
+# Write a program to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x)  Напишите программу для создания и печати словаря, содержащего число (от 1 до n) в форме (x, x*x)
+
+# ```
+# Input: func_name(n=5)
+# Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25
+# a = int(input())
+# for i in a:
+    
+    
+# d = {
+#     a:a*a,
+# }
+
+
+### 5 Question
+    # Write a program that merges two dictionaries into one /
+    # Напишите программу, объединяющую два словаря в один
+    # Input: data_1, data_2 = {1: 1, 2: 4, 3: 9}, {4: 16, 5: 25, 6: 36}
+    # Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36}
+ ### 5 answer   
+    # a = {1:1,2:4,3:9}
+    # b = {4:6,5:25,6:36}
+    # a.update(b)
+    # print(a)   
+    
+    
+    
+# ### 6 Question
+    # Write a Python program to drop empty items from a dictionary / Напишите программу на Python для удаления пустых элементов из словаря.
+    # ```
+    # Input: {'c1': 'Red', 'c2': 'Green', 'c3': None}
+    # Output: {'c1': 'Red', 'c2': 'Green'} 
+### Answer           
+# a =  {'c1': 'Red', 'c2': 'Green', 'c3': None} 
+# for i in a:
+#     if a.values == None:
+#        print(a)
+    
+    
+    
+#     ### 7 Question
+# Write a program to transform a dictionary into a list of tuples / Напишите программу преобразования словаря в список кортежей.
+# ```
+# Input: {'Red': 1, 'Green': 3, 'White': 5, 'Black': 2, 'Pink': 4}
+# Output: [('Red', 1), ('Green', 3), ('White', 5), ('Black', 2), ('Pink', 4)]
+
+### 7
+    # a = {'Red': 1, 'Green': 3, 'White': 5, 'Black': 2, 'Pink': 4}
+    # list_c = []
+    # list_c.append(a)
+    # print(list_c)
