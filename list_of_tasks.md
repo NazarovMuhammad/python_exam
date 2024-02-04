@@ -49,7 +49,8 @@ Output: [('Red', 1), ('Green', 3), ('White', 5), ('Black', 2), ('Pink', 4)]
 ```
 
 ### 8 Question
-Write a program to filter a dictionary based on values / Напишите программу для фильтрации словаря по значениям.
+Write a program to filter a dictionary based on values / 
+Напишите программу для фильтрации словаря по значениям.
 ```
 Input: {'Apple': 10, 'Orange': 3, 'Banana': 14, 'Watermelon': 21, 'Lemon': 8}
 Output: {'Orange': 3,  'Lemon': 8,  'Apple': 10, ' 'Banana': 14, 'Watermelon': 21}
